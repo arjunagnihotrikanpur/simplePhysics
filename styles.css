@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    padding: 5px;
+    font-size: 70px;
+    border: none;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(122, 193, 193);
+}
+button:hover {
+    background-color: rgb(78, 119, 119);
+    cursor: pointer;
+}
